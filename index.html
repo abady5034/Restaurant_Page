@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tittle of page -->
+    <title>ABADY</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&#038;display=swap"
+      rel="stylesheet"
+    />
+    <!-- Normalize -->
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <!-- Main style.css -->
+    <link rel="stylesheet" href="CSS/main.css" />
+    <!-- Icon-page -->
+    <link rel="icon" href="images/icon-page.ico" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="logo-page">
+          <a href="home">
+            <img src="images/logo.png" alt="logo image" />
+            <span>ABADY</span>
+          </a>
+        </div>
+        <nav>
+          <div class="bars">
+            <i class="fa-solid fa-bars fa-2x"></i>
+          </div>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#reservation">Reservation</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="landing" id="home">
+      <div class="container">
+        <div class="text-landing">
+          <h1>Welcome to ABADY</h1>
+        </div>
+        <div class="text-cycle">
+          <p>
+            Experience culinary excellence in an atmosphere of refined
+            sophistication
+          </p>
+          <p>Discover exquisite flavors crafted with passion and precision</p>
+          <p>Where fine dining meets unforgettable moments</p>
+        </div>
+        <div class="reserve">
+          <a href="#reservation">Reserve Your Table</a>
+        </div>
+      </div>
+    </div>
+    <!-- Menu -->
+    <div class="menu" id="menu">
+      <div class="container">
+        <h2>Our Signature Menu</h2>
+        <div class="food-card">
+          <div class="food">
+            <img src="../Main project/images/truffle-risotto.jpg" alt="Error" />
+            <h3>Truffle Risotto</h3>
+            <p>
+              Creamy arborio rice with black truffle, parmesan, and fresh herbs
+            </p>
+            <span>$32<br /></span>
+            <a src="#">View Ingredients</a>
+          </div>
+          <div class="food">
+            <img src="../Main project/images/grilled-salmon.jpg" alt="Error" />
+            <h3>Grilled Salmon</h3>
+            <p>
+              Atlantic salmon with lemon butter sauce and seasonal vegetables
+            </p>
+            <span>$28<br /></span>
+            <a src="#">View Ingredients</a>
+          </div>
+          <div class="food">
+            <img src="../Main project/images/beef-wellington.jpg" alt="" />
+            <h3>Beef Wellington</h3>
+            <p>
+              Premium beef tenderloin wrapped in puff pastry with mushroom
+              duxelles
+            </p>
+            <span>$45<br /></span>
+            <a src="#">View Ingredients</a>
+          </div>
+          <div class="food">
+            <img
+              src="../Main project/images/lobster-thermidor.jpg"
+              alt="Error"
+            />
+            <h3>Lobster Thermidor</h3>
+            <p>Fresh lobster in cognac cream sauce with gruyere cheese</p>
+            <span>$52<br /></span>
+            <a src="#">View Ingredients</a>
+          </div>
+          <div class="food">
+            <img src="../Main project/images/duck-confit.jpg" alt="Error" />
+            <h3>Duck Confit</h3>
+            <p>
+              Slow-cooked duck leg with garlic potatoes and cherry reduction
+            </p>
+            <span>$38<br /></span>
+            <a src="#">View Ingredients</a>
+          </div>
+          <div class="food">
+            <img
+              src="../Main project/images/chocolate-souffle.jpg"
+              alt="Error"
+            />
+            <h3>Chocolate Soufflé</h3>
+            <p>
+              Warm chocolate soufflé with vanilla ice cream and berry coulis
+            </p>
+            <span>$16<br /></span>
+            <a src="#">View Ingredients</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Reservation -->
+    <div class="reservation" id="reservation">
+      <div class="container">
+        <div class="reserve">
+          <div class="text">
+            <h2>Make a Reservation</h2>
+          </div>
+          <div class="forms">
+            <div class="form">
+              <label for="name">Full Name<br /></label>
+              <input type="text" id="name" required />
+            </div>
+            <div class="form">
+              <label for="email">Email<br /></label>
+              <input type="email" id="email" required />
+            </div>
+            <div class="form">
+              <label for="phone">Phone Number<br /></label>
+              <input type="tel" id="phone" required />
+            </div>
+            <div class="form">
+              <label for="date">Date<br /></label>
+              <input type="date" id="date" required />
+            </div>
+            <div class="form">
+              <label for="time">Time<br /></label>
+              <select name="time" id="time" required>
+                <option selected>Select Time</option>
+                <option>5:30 PM</option>
+                <option>6:00 PM</option>
+                <option>6:30 PM</option>
+                <option>7:00 PM</option>
+                <option>7:30 PM</option>
+                <option>8:00 PM</option>
+                <option>8:30 PM</option>
+                <option>9:00 PM</option>
+              </select>
+            </div>
+            <div class="form">
+              <label for="guest">Number of Guests<br /></label>
+              <select name="guest" id="guest" required>
+                <option selected>Number of Guests</option>
+                <option>1 Guests</option>
+                <option>2 Guests</option>
+                <option>3 Guests</option>
+                <option>4 Guests</option>
+                <option>5 Guests</option>
+                <option>7 Guests</option>
+                <option>8 Guests</option>
+              </select>
+            </div>
+            <div class="area">
+              <label for="area">Special Requests</label>
+              <textarea
+                id="area"
+                cols="30"
+                rows="5"
+                placeholder="Any dietary restrictions or special occasions?"
+              ></textarea>
+            </div>
+          </div>
+          <button>Reserve Taple</button>
+        </div>
+        <div class="image">
+          <img src="images/restaurant-tables.jpg" alt="Error" />
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer id="contact">
+      <div class="container">
+          <div class="foot1">
+            <div class="text">
+              <h4>Contact Us</h4>
+              <p>
+                123 Smouha Street<br />
+                Gourmet District, GD 12345<br />
+                Phone: +201000000000<br />
+                Email: email@gmail.com
+              </p>
+            </div>
+            <div class="text">
+              <h4>Opening Hours</h4>
+              <p>
+                Monday - Thursday: 5:00 PM - 10:00 PM<br />
+                Friday - Saturday: 5:00 PM - 11:00 PM<br />
+                Sunday: 5:00 PM - 9:00 PM<br />
+                Closed on major holidays
+              </p>
+            </div>
+            <div class="text">
+              <h4>Follow Us</h4>
+              <div class="links">
+                <a href="#">Facebook</a>
+              <a href="#">Instagram</a>
+              <a href="#">Twitter</a>
+              <a href="#">LinkedIn</a>
+              </div>
+            </div>
+          </div>
+          <div class="foot2">
+            <p id="special">© 2026 ABADY. All rights reserved.</p>
+            <div class="links2">
+              <a href="#">Privacy Policy</a><a href="#">Teams & Conditions</a
+            ><a href="#">Sitemap</a><a href="#">Designed by Abady</a>
+            </div>
+          </div>
+      </div>
+    </footer>
+  </body>
+</html>
